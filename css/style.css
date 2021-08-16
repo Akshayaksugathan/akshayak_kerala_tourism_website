@@ -1,0 +1,108 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+ header{
+    height: 5em;
+
+    background-color: rgb(120, 230, 215);
+}
+
+
+ .logo{ 
+     background-color: rgb(0, 255, 242);
+    height: 65px;
+    margin-left: 10%;
+    margin-top: 10px;
+}
+
+.head-tag {
+    
+    float: right;
+    margin-top: 30px;
+    
+}
+
+.head-tag a{
+   
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    border: 1px solid rgb(13, 177, 13);
+    color:rgb(6, 65, 6);
+    text-decoration: none;
+    padding: 10px;
+    margin-right: 10px;
+    
+   
+}
+
+b.head-tag :hover{
+    background-color:rgb(169, 223, 169);
+    color:green;
+}  
+  
+.homemargin{
+    margin:25px;
+}
+
+.loginform{
+    
+}
+
+
+.home{
+    
+    font-family:cursive;
+    font-weight: bolder;
+    font-size: 50px;
+    text-align: center;
+    color: blue;
+}
+
+
+footer{
+    background-color: rgb(120, 230, 215);
+    color: black;
+    margin-top: 10%;
+    text-align: center;
+    height: 1.5em;
+}
+
+.login-body{
+    background-size: cover;
+}
+
+.dist{
+    align-items: center;
+}
+
+h5{
+    
+    text-align: center;
+    text-decoration:none;
+    
+}
+
+h1{
+    font-family:cursive;
+    font-weight: bolder;
+    font-size: 50px;
+    text-align: center;
+    color: green;
+}
+
+
+/* a{
+    text-decoration: none;
+} */
+
+/* h5{
+    text-decoration: none;
+} */
+
+.link{
+    text-decoration: none;
+    color: black;
+}
