@@ -26,7 +26,7 @@
 footer{
     background-color: rgb(120, 230, 215);
     color: black;
-    margin-top: 10%;
+    margin-top: 22%;
     text-align: center;
     height: 1.5em;
 }
@@ -67,3 +67,53 @@ h1{
    
 }
 
+.form_control small{
+    visibility:hidden ;
+  }
+
+  .form_control.success input{
+    border-color: green;
+  }
+  .form_control.error input{
+    border-color: red;
+  }
+  .form_control.error small{
+    color: red;
+    visibility: visible;
+  }
+
+  .form_control .pswd_strength{
+    position: relative;
+    width: 30%; 
+     height: 20px; 
+    margin-top: 10px;
+    text-align: center; 
+    background: #f2f2f2;
+    display: none;
+  }
+  .form_control .pswd_strength span:nth-child(1){
+    position: relative;
+    font-size:13px;
+    color: #111;
+     z-index: 2; 
+    font-weight: 600;  
+  }
+  .form_control .pswd_strength span:nth-child(2){
+    position: absolute;
+    top:0px;
+    left: 0px; 
+     width: 50%; 
+    height: 100%; 
+     border-radius: 5px; 
+    z-index: 1; 
+     transition:all 300 ms ease-in-out; 
+  }
+
+
+  form{
+    margin-left: 40%;
+  }
+  
+  h2{
+    margin-left: 40%;
+  }

@@ -3,7 +3,8 @@
 <head>
     <title>Login</title>
     <link rel="stylesheet" href="css/style.css">
-
+    
+    <script defer src="Js/login.js"></script>
     
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
@@ -59,44 +60,32 @@
 
     <!-- Login form -->
     <br><br><br>
-
-<div class="row">
-  <div class="col-lg-4"></div>
-    <div class="col-lg-3">
+    <div class="container">
+    <div class="header">
       <h2>Login Form</h2>
-      <br><br>
-    <form>
-        <div class="mb-3">
-          <label for="exampleInputEmail1" class="form-label">Email address</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-          
-        </div>
-        <div class="mb-3">
-          <label for="exampleInputPassword1" class="form-label">Password</label>
-          <input type="password" class="form-control" id="exampleInputPassword1">
-        </div><br>
-        
-        
-        <!-- <button type="submit" class="btn btn-primary" >Login</button> -->
-
-        <a href="district.html" class="btn btn-primary">Login</a>
-
-        <br><br>
-        <div>
-            <a href="signup.html" class="link">New User</a>
-        </div>
-    
-      </form>
-  
     </div>
-  </div>
+    <form action="#" class="form" id="form" >
+      
+      <div class="form_control">
+        <label for="">Email</label><br>
+        <input type="text" id="email">
+        <small>Error Message</small>
+      </div>
 
+      <div class="form_control">
+        <label for="">Password</label><br>
+        <input type="password" id="password">
+        <small>Error Message</small>
+      </div>
+      <br>
+      <button>Login</button>
+    </form>
+  </div>
   <!-- /login form -->
+  </body>
 
   <footer>
     <p>copyright@2021</p>
   </footer>
-   
-    
-    </body>
+</body>
 </html>

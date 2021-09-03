@@ -11,6 +11,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
     
     <link rel="stylesheet" href="bootstrap.min.css">
+
+    <script async src="JS/script.js"></script>
 </head>
 <body>
 
@@ -56,50 +58,58 @@
     <!-- /Header -->
     <br>
 
-    <!-- sign Up form -->
-   <div class="row">
-       <div class="col-lg-4"></div>
-       <div class="col-lg-8">
-           <h2>Registration form</h2><br>
-    <form >
+    <!-- Signup form -->
 
-        <div class="col-lg-4">
-            <label for="input name" class="form-label">Name</label>
-            <input type="text" class="form-control" id="inputName" placeholder="">
-          </div>
-          <div class="col-lg-4">
-            <label for="inputPhone" class="form-label">Phone Number</label>
-            <input type="number" class="form-control" id="inputPhone" placeholder="">
-          </div>
 
-        <div class="col-lg-4">
-          <label for="inputEmail4" class="form-label">Email</label>
-          <input type="email" class="form-control" id="inputEmail4">
-        </div>
-        <div class="col-lg-4">
-          <label for="inputPassword4" class="form-label">Password</label>
-          <input type="password" class="form-control" id="inputPassword4">
+    <div class="container">
+      <div class="header">
+        <h2>SignUp Form</h2>
+      </div>
+      <form action="#" class="form" id="form" >
+
+        <div class="form_control">
+          <label for="">Name</label><br>
+          <input type="text" id="uname"><br>
+          <small>Error Message</small>
         </div>
 
-        <div class="col-lg-4">
-            <label for="inputPassword5" class="form-label">Retype Password</label>
-            <input type="password" class="form-control" id="inputPassword5">
-          </div>
-         <br>
-        <div class="col-lg-4">
-           <!-- <button type="submit" class="btn btn-primary">Register</button> -->
-           <a href="login.html" class="btn btn-primary">Register</a>
+        <div class="form_control ">
+          <label for="">Phone Number</label><br>
+          <input type="text" id="phone"><br>
+          <small>Error Message</small>
         </div>
+
+        <div class="form_control">
+          <label for="">Email</label><br>
+          <input type="text" id="email"><br>
+          <small>Error Message</small>
+        </div>
+
+        <div class="form_control">
+          <label for="pass">Password</label><br>
+          <input type="password" id="password" onkeyup="checkpasswordstrength()">
+          <label for="" id="label1"></label>
+          <span id="pmsg"></span><br>
+          <div class="pswd_strength">
+            <span></span>
+          </div>
+          <small>Error Message</small>
+        </div>
+
+        <div class="form_control">
+          <label for="">Retype Password</label><br>
+          <input type="password" id="password2"><br>
+          <small>Error Message</small>
+        </div>
+        <br>
+        <button>Submit</button>
       </form>
-    </div>
     </div>
 
 
     <footer>
       <p>copyright@2021</p>
     </footer>
-
-
     
-</body>
+  </body>
 </html>
